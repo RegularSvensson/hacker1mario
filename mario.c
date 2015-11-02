@@ -10,4 +10,6 @@ int main(void)
     // store input as height
     int height = GetInt();
     
+    // print height
+    printf("You chose height: %i", height);
 }
