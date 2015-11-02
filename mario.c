@@ -11,5 +11,5 @@ int main(void)
     int height = GetInt();
     
     // print height
-    printf("You chose height: %i", height);
+    printf("You chose height: %i\n", height);
 }
