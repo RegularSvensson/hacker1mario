@@ -4,6 +4,9 @@
 
 int main(void) 
 {
+    // declare height
+    int height;
+    
     // prompt user for height
     printf("Height: ");
     
