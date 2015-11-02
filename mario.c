@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void) 
+int main(void)
 {
     // declare height
     int height;
@@ -10,15 +10,12 @@ int main(void)
     // run prompt until correct input recieved
     do
     {
-    // prompt user for height
-    printf("Height: ");
-    
-    // store input as height
-    height = GetInt();
+        // prompt user for height
+        printf("Height: ");
+        
+        // store input as height
+        height = GetInt();
     } while (height < 0 || height > 23);
-    
-    // print height
-    printf("You chose height: %i\n", height);
     
     // print pyramid
     for (int row = 1; row <= height; row++)
@@ -44,7 +41,7 @@ int main(void)
             printf("#");
         }
         
-        //print new line
+        // print new line
         printf("\n");
     }
 }
