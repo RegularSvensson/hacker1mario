@@ -4,5 +4,7 @@
 
 int main(void) 
 {
-    printf("hello world\n");
+    // prompt user for height
+    printf("Height: ");
+    
 }
