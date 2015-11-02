@@ -4,5 +4,12 @@
 
 int main(void) 
 {
-    printf("hello world\n");
+    // prompt user for height
+    printf("Height: ");
+    
+    // store input as height
+    int height = GetInt();
+    
+    // print height
+    printf("You chose height: %i\n", height);
 }
